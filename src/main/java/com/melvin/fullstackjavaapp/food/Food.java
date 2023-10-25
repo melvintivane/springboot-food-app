@@ -25,4 +25,18 @@ public class Food {
         this.image = data.image();
         this.price = data.price();
     }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
+    }
+
+    public void setPrice(Integer price) {
+        this.price = price;
+    }
+
+    
 }
